@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Sumweight";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sumweight</h2>
+
+@using (Html.BeginForm()) {
+
+@Html.Label("Sum", "Entre sum of weight")
+    @Html.TextBox("sum")
+    <input type="submit" value="Submit" class="btn btn-default"/>
+
+};
